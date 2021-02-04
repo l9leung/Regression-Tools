@@ -6,7 +6,7 @@ R functions that implement two regression subset selection algorithms.
 
 - ``bss.R``: Starts with the full model (all variables), and for the number of variables tests all submodels obtained by removing one variable. Removes the variable that minimizes RSS and saves the submodel. Repeats the process until the null model is reached and chooses the submodel that minimizes BIC.
 
-![Alt text](https://raw.githubusercontent.com/l9leung/Regression-Tools/main/bss_screenshot.PNG)
+![Alt text](https://raw.githubusercontent.com/l9leung/Regression-Tools/main/bss_screenshot.png)
 
 ### Examples
 - ``demo.R``: Example usage on the ``Hitters`` data set from 'An Introduction to Statistical Learning with Applications in R'. ``Hitters`` contains Major League Baseball Data from the 1986 and 1987 seasons.
